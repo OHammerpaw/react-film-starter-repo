@@ -6,7 +6,7 @@ class FilmList extends Component {
         const allFilms = this.props.films.map((film) => {
             return (
                 <FilmRow film={film}
-                key={film} />
+                key={film.title} />
             )
         })
     return (
